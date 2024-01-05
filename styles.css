@@ -8,17 +8,27 @@ body, button {
     font-size: 1.2em;
     font-weight: 900;
 }
+
+button {
+    background-color: rosybrown;
+}
 .container {
     display: flex;
     background-color: beige;
 }
 
 #main-text, .footnote, p {
-    margin: 50px;
+    padding: 50px;
+    background-color: rosybrown;
+    margin: 0;
+}
+
+.footnote {
+    background-color: rgb(89, 89, 188);
 }
 
 #main-text {
-    margin-right: 250px;
+    padding-right: 250px;
 }
 
 form {
@@ -28,11 +38,16 @@ form {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+li {
     margin: 25px;
 }
 
-ul {
+label:hover, button:hover, a:hover, a:visited {
+    background-color: rgb(255, 216, 144);
 }
-li {
-    margin: 25px;
+
+a {
+    color:  rgb(255, 216, 144);
 }
