@@ -8,19 +8,16 @@
     <link 
 </head>
 <body>
-    <div id="container">
-        <div id="side-image">
-            <img src="images/photo by Madhu Shesharam on unsplash.avif" 
-            alt="empty road between rock formations" width="500px" height="1000px">
-        </div>
-
+    <div class="container">
+        <img id="side-image" src="images/photo by Madhu Shesharam on unsplash.avif" alt="empty road between rock formations" width="500px">
         <div id="main-body">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus 
+            <p id="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus 
                 suscipit ipsa explicabo, aliquam officiis mollitia ea at fuga beatae aut, 
                 necessitatibus deserunt rerum magnam. Enim quam animi in reprehenderit velit.
             </p>
+            <div class="footnote">So what are you waiting for? Create your account now before they're all gone!</div>
             <form action="/odin-sign-up-form/" method="post">
-                <ul>
+                <ul class="column-left">
                     <li>
                         <label for="first">First Name</label>
                         <input type="text" placeholder="John" min="2" id="first" name="first_name" required>
@@ -34,6 +31,11 @@
                         <input type="email" placeholder="jdoe@gmail.com" id="email" name="user_email" required>
                     </li>
                     <li>
+                        <button class="button" type="submit">Create Account</button>
+                    </li>
+                </ul>
+                <ul class="column-right">
+                    <li>
                         <label for="phone">Phone</label>
                         <input type="tel" placeholder="252-555-1569" id="phone" name="user_phone" required>
                     </li>
@@ -46,15 +48,11 @@
                         <input type="password" placeholder="********" id="password_confirm" name="password_confirm" required>
                     </li>
                     <li>
-                        <button class="button" type="submit">Create Account</button>
-                    </li>
-                    <li>
                         <button class="button" type="reset">Reset Fields</button>
                     </li>
                 </ul>
-                <p>Already have an account? <a href="odin-login.html">Log In</a></p>
-                
             </form>
+            <p>Already have an account? <a href="odin-login.html">Log In</a></p>
         </div>
     </div>
 </body>
