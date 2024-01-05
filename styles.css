@@ -1,28 +1,38 @@
+@font-face {
+    font-family: rubik-doodle-shadow;
+    src: url(fonts/RubikDoodleShadow-Regular.ttf);
+}
+
+body, button {
+    font-family: rubik-doodle-shadow;
+    font-size: 1.2em;
+    font-weight: 900;
+}
 .container {
     display: flex;
-}
-
-#side-image {
-    flex: 1;
-}
-
-#main-body {
-    flex: 2;
+    background-color: beige;
 }
 
 #main-text, .footnote, p {
     margin: 50px;
 }
 
+#main-text {
+    margin-right: 250px;
+}
+
 form {
     display: flex;
 }
+
 .column {
     display: flex;
     flex-direction: column;
     margin: 25px;
 }
 
+ul {
+}
 li {
     margin: 25px;
 }
