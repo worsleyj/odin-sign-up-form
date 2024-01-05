@@ -10,12 +10,14 @@
 <body>
     <div class="container">
         <img id="side-image" src="images/photo by Madhu Shesharam on unsplash.avif" alt="empty road between rock formations" width="500px">
+        <img id="odin-png" src="images/odin.png" alt="odin project logo" width="250px" height="200px">
+        <a id="image-credits" href="https://unsplash.com/photos/photo-of-empty-road-between-rock-formations-KQZZCVyEWVk">photo by Madhu Shesharam on unsplash</a>
         <div id="main-body">
             <p id="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus 
                 suscipit ipsa explicabo, aliquam officiis mollitia ea at fuga beatae aut, 
                 necessitatibus deserunt rerum magnam. Enim quam animi in reprehenderit velit.
             </p>
-            <div class="footnote">So what are you waiting for? Create your account now before they're all gone!</div>
+            <div class="footnote">So what are you waiting for? <br> Create your account now before they're all gone!</div>
             <form action="/odin-sign-up-form/" method="post">
                 <ul class="column-left">
                     <li>
@@ -32,9 +34,6 @@
                     </li>
                     <li>
                         <button class="button" type="submit">Create Account</button>
-                    </li>
-                    <li>
-                        <button class="button" type="reset">Reset Fields</button>
                     </li>
                 </ul>
                 <ul class="column-right">
@@ -54,7 +53,9 @@
                         <label for="referral">Referral Code</label>
                         <input type="text" placeholder="(Optional)" min="6" max="6" id="referral" name="referral_code">
                     </li>
-
+                    <li>
+                        <button class="button" type="reset">Reset Fields</button>
+                    </li>
                 </ul>
             </form>
             <p>Already have an account? <a href="odin-login.html">Log In</a></p>

@@ -3,6 +3,32 @@
     src: url(fonts/RubikDoodleShadow-Regular.ttf);
 }
 
+:root {
+    overflow: hidden;
+}
+
+#odin-png {
+    position: absolute;
+    left: 136px;
+    opacity: .5 ;
+}
+
+#odin-png:hover {
+    opacity: 1;
+}
+
+#image-credits{
+    color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+    opacity: .5;
+}
+
+#image-credits:hover {
+    opacity: 1;
+}
+
 body, button {
     font-family: rubik-doodle-shadow;
     font-size: 1.2em;
@@ -18,21 +44,19 @@ button {
 }
 
 #main-text, .footnote, p {
-    padding: 50px;
+    padding: 40px;
     background-color: rosybrown;
     margin: 0;
+    text-align: center;
 }
 
 .footnote {
-    background-color: rgb(89, 89, 188);
-}
-
-#main-text {
-    padding-right: 250px;
+    background-color: rgb(177, 177, 249);
 }
 
 form {
     display: flex;
+    justify-content: space-around;
 }
 
 .column {
@@ -42,6 +66,7 @@ form {
 
 li {
     margin: 25px;
+    list-style-type: none;
 }
 
 label:hover, button:hover, a:hover, a:visited {
