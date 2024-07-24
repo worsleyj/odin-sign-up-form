@@ -22,6 +22,6 @@
     isolation: isolate;
   }
 
-.test {
-    background-color: blue;
+.background-image {
+    visibility: hidden;
 }
