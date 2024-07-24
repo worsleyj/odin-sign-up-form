@@ -1,78 +1,23 @@
-@font-face {
-    font-family: rubik-doodle-shadow;
-    src: url(fonts/RubikDoodleShadow-Regular.ttf);
-}
-
-:root {
-    overflow: hidden;
-}
-
-#odin-png {
-    position: absolute;
-    left: 136px;
-    opacity: .5 ;
-}
-
-#odin-png:hover {
-    opacity: 1;
-}
-
-#image-credits{
-    color: white;
-    position: absolute;
-    left: 60px;
-    bottom: 5px;
-    opacity: .5;
-}
-
-#image-credits:hover {
-    opacity: 1;
-}
-
-body, button {
-    font-family: rubik-doodle-shadow;
-    font-size: 1.2em;
-    font-weight: 900;
-}
-
-button {
-    background-color: rosybrown;
-}
-.container {
-    display: flex;
-    background-color: beige;
-}
-
-#main-text, .footnote, p {
-    padding: 40px;
-    background-color: rosybrown;
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
     margin: 0;
-    text-align: center;
-}
-
-.footnote {
-    background-color: rgb(177, 177, 249);
-}
-
-form {
-    display: flex;
-    justify-content: space-around;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-li {
-    margin: 25px;
-    list-style-type: none;
-}
-
-label:hover, button:hover, a:hover, a:visited {
-    background-color: rgb(255, 216, 144);
-}
-
-a {
-    color:  rgb(255, 216, 144);
-}
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
