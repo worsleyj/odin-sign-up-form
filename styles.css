@@ -22,6 +22,18 @@
     isolation: isolate;
   }
 
+body {
+    display: flex;
+}
+
+.main {
+    flex: 4;
+}
+
+.sidebar {
+    flex: 3;
+}
+
 .background-image {
     visibility: hidden;
 }
