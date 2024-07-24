@@ -31,14 +31,40 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     background-image: url(images/plant.avif);
     background-size: cover;
     flex: 3;
 }
 
-.sidebar-footnote {
+.logo-container {
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-pic {
+    height: 95%;
+}
+
+.odin-text {
     color: white;
+    font-size: 8rem;
+}
+
+.sidebar-footnote {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
 }
 
 .background-image {
