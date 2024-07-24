@@ -22,11 +22,22 @@
     isolation: isolate;
   }
 
+
+@font-face {
+    font-family: norseBold;
+    src: url(fonts/Norse-Bold.otf);
+    font-weight: bold;
+}
+
 body {
     display: flex;
 }
 
 .main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     flex: 4;
 }
 
@@ -57,6 +68,8 @@ body {
 .odin-text {
     color: white;
     font-size: 8rem;
+    font-family: "norseBold";
+
 }
 
 .sidebar-footnote {
@@ -73,5 +86,67 @@ body {
 }
 
 button {
+    margin-top: 30px;
     background-color: #596D48;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.input-column {
+    display: flex;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-footnote {
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+form {
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    border: #E5E7EB
+}
+
+label {
+    padding-top: 20px;
+
+}
+
+p {
+    font-size: 32px;
+}
+
+.main-text {
+    font-weight: bolder;
+}
+
+input:focus {
+    border: solid rgb(78, 78, 255);
+    box-shadow: 1px 1px blue;
+}
+
+input:invalid {
+    border: solid red;
 }
