@@ -31,9 +31,21 @@ body {
 }
 
 .sidebar {
+    height: 100vh;
+    background-image: url(images/plant.avif);
+    background-size: cover;
     flex: 3;
 }
 
+.sidebar-footnote {
+    color: white;
+}
+
 .background-image {
-    visibility: hidden;
+    position: static;
+    height: 100%;
+}
+
+button {
+    background-color: #596D48;
 }
